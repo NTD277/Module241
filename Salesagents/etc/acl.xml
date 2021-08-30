@@ -20,7 +20,10 @@
         <resources>
             <resource id="Magento_Backend::admin">
                 <resource id="AHT_Salesagents::commission" title="AHT salesagents" sortOrder="75">
-                </resource>               
+
+                    <resource id="AHT_Salesagents::test" title="Test" sortOrder="76"/>  
+                </resource>    
+                         
             </resource>
         </resources>
     </acl>

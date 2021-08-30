@@ -36,7 +36,7 @@ class Salesagents extends \Magento\Framework\View\Element\Template
             // )
             // ->join(
                 ['test' => 'catalog_product_entity_varchar'],
-                'test.entity_id = a.entity_id and test.attribute_id = 73'
+                'test.entity_id = e.entity_id and test.attribute_id = 73'
             );
         $collection->setPageSize(5);
         $a = 1;
